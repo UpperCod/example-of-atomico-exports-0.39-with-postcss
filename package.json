@@ -1,0 +1,23 @@
+{
+  "name": "check-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exports src/**/* --css-literals-postcss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atomico/exports": "^0.39.1",
+    "@atomico/tsconfig": "^1.1.2",
+    "atomico": "^1.68.0",
+    "autoprefixer": "^10.4.13"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}
